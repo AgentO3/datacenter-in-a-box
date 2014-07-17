@@ -3,4 +3,4 @@
   sudo: true
   tasks:
     - name: Say hello
-      command: echo hello from docker {{ansible_date_time.epoch}}
+      command: echo hello from docker container at {{ansible_default_ipv4.address}}

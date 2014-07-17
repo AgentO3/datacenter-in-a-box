@@ -1,0 +1,6 @@
+---
+- hosts: app-servers
+  sudo: true
+  tasks:
+    - name: Say hello
+      command: echo hello from docker {{ansible_date_time.epoch}}

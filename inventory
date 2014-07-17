@@ -1,0 +1,8 @@
+app-server3 ansible_ssh_host=127.0.0.1 ansible_ssh_port=2230
+app-server2 ansible_ssh_host=127.0.0.1 ansible_ssh_port=2231
+app-server1 ansible_ssh_host=127.0.0.1 ansible_ssh_port=2232
+
+[app-servers]
+app-server3
+app-server2
+app-server1
